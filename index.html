@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>حملة شقق وغسيل خزانات - الرياض</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+  <!-- TikTok Pixel Code Start -->
+  <script>
+  !function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+  var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+  ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+    ttq.load('D8DD0ERC77UANKFS5NG0');
+    ttq.page();
+  }(window, document, 'ttq');
+  </script>
+  <!-- TikTok Pixel Code End -->
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold: #c9a227;
+      --gold-light: #f0d060;
+      --dark: #0d1b2a;
+      --darker: #071016;
+      --blue: #1a3a5c;
+      --blue-mid: #1e4976;
+      --white: #ffffff;
+      --soft: #f5f0e8;
+      --red: #e63946;
+    }
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(160deg, #071016 0%, #0d1b2a 50%, #091520 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 20px 12px 40px;
+      color: var(--white);
+    }
+
+    .card {
+      width: 100%;
+      max-width: 480px;
+      background: linear-gradient(175deg, #112236 0%, #0d1b2a 60%, #091520 100%);
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.7), 0 0 0 1px rgba(201,162,39,0.18);
+      position: relative;
+    }
+
+    /* ── Decorative top bar ── */
+    .topbar {
+      height: 6px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+    }
+
+    /* ── Header ── */
+    .header {
+      padding: 28px 24px 20px;
+      text-align: center;
+      position: relative;
+      background: linear-gradient(180deg, rgba(201,162,39,0.08) 0%, transparent 100%);
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 50%; transform: translateX(-50%);
+      width: 200px; height: 200px;
+      background: radial-gradient(ellipse, rgba(201,162,39,0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .logo-icon {
+      width: 72px; height: 72px;
+      margin: 0 auto 14px;
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 30px;
+      box-shadow: 0 8px 24px rgba(201,162,39,0.4);
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 8px 24px rgba(201,162,39,0.4); transform: scale(1); }
+      50% { box-shadow: 0 8px 36px rgba(201,162,39,0.65); transform: scale(1.04); }
+    }
+
+    .badge-city {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: rgba(201,162,39,0.13);
+      border: 1px solid rgba(201,162,39,0.35);
+      border-radius: 30px;
+      padding: 5px 14px;
+      font-size: 12px;
+      color: var(--gold-light);
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+    }
+
+    .company-name {
+      font-size: 22px;
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--gold) 0%, #fff8e0 50%, var(--gold) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.3;
+      margin-bottom: 6px;
+    }
+
+    .tagline {
+      font-size: 13px;
+      color: rgba(255,255,255,0.55);
+    }
+
+    /* ── Offers section ── */
+    .offers {
+      display: flex;
+      gap: 12px;
+      padding: 0 20px 20px;
+    }
+
+    .offer-card {
+      flex: 1;
+      border-radius: 18px;
+      padding: 16px 12px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .offer-card.apartments {
+      background: linear-gradient(145deg, #1e3a5c, #112236);
+      border: 1px solid rgba(201,162,39,0.3);
+    }
+
+    .offer-card.tanks {
+      background: linear-gradient(145deg, #1a3d2e, #0e2519);
+      border: 1px solid rgba(60,180,100,0.3);
+    }
+
+    .offer-card::before {
+      content: '';
+      position: absolute;
+      top: -30px; right: -30px;
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      opacity: 0.08;
+    }
+
+    .offer-card.apartments::before { background: var(--gold); }
+    .offer-card.tanks::before { background: #3cb464; }
+
+    .offer-icon { font-size: 28px; margin-bottom: 6px; }
+
+    .offer-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .offer-price {
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .offer-card.apartments .offer-price {
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .offer-card.tanks .offer-price {
+      background: linear-gradient(135deg, #3cb464, #7ef4a4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .offer-unit {
+      font-size: 11px;
+      color: rgba(255,255,255,0.5);
+      margin-top: 3px;
+    }
+
+    .offer-tag {
+      position: absolute;
+      top: 8px; left: 8px;
+      background: var(--red);
+      color: white;
+      font-size: 9px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 20px;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      height: 1px;
+      margin: 0 20px 20px;
+      background: linear-gradient(90deg, transparent, rgba(201,162,39,0.25), transparent);
+    }
+
+    /* ── Section title ── */
+    .section-title {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 13px; font-weight: 700;
+      color: var(--gold);
+      padding: 0 20px 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, rgba(201,162,39,0.3), transparent);
+    }
+
+    /* ── Services list ── */
+    .services {
+      padding: 0 20px 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .service-item {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 14px;
+      padding: 12px 10px;
+      display: flex; align-items: center; gap: 9px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.85);
+      font-weight: 600;
+      transition: all 0.25s;
+    }
+
+    .service-item:hover {
+      background: rgba(201,162,39,0.08);
+      border-color: rgba(201,162,39,0.25);
+      transform: translateY(-2px);
+    }
+
+    .service-emoji {
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    /* ── Features ── */
+    .features {
+      padding: 0 20px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+
+    .feature-item {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.8);
+      font-weight: 600;
+    }
+
+    .feature-check {
+      width: 22px; height: 22px;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px;
+      flex-shrink: 0;
+      color: var(--darker);
+      font-weight: 900;
+    }
+
+    /* ── Guarantee strip ── */
+    .guarantee {
+      margin: 0 20px 20px;
+      background: linear-gradient(135deg, rgba(201,162,39,0.12), rgba(201,162,39,0.06));
+      border: 1px solid rgba(201,162,39,0.25);
+      border-radius: 14px;
+      padding: 14px 16px;
+      display: flex; align-items: center; gap: 12px;
+    }
+
+    .guarantee-icon { font-size: 28px; flex-shrink: 0; }
+
+    .guarantee-text {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gold-light);
+      line-height: 1.5;
+    }
+
+    .guarantee-text span {
+      display: block;
+      font-size: 11px;
+      color: rgba(255,255,255,0.5);
+      font-weight: 400;
+      margin-top: 2px;
+    }
+
+    /* ── CTA Buttons ── */
+    .cta-area {
+      padding: 0 20px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+    }
+
+    .btn {
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      padding: 15px 20px;
+      border-radius: 16px;
+      font-family: 'Cairo', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(255,255,255,0);
+      transition: background 0.3s;
+    }
+
+    .btn:hover::after { background: rgba(255,255,255,0.08); }
+    .btn:active { transform: scale(0.97); }
+
+    .btn-call {
+      background: linear-gradient(135deg, var(--gold) 0%, #e8b820 50%, var(--gold-light) 100%);
+      color: var(--darker);
+      box-shadow: 0 8px 28px rgba(201,162,39,0.45);
+    }
+
+    .btn-whatsapp {
+      background: linear-gradient(135deg, #128c7e 0%, #25d366 100%);
+      color: white;
+      box-shadow: 0 8px 28px rgba(37,211,102,0.3);
+    }
+
+    .btn-icon { font-size: 20px; }
+
+    /* ── Contact info strip ── */
+    .contact-strip {
+      margin: 0 20px 20px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 14px;
+      padding: 14px 18px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+
+    .contact-label {
+      font-size: 11px;
+      color: rgba(255,255,255,0.4);
+      margin-bottom: 3px;
+    }
+
+    .contact-number {
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--gold);
+      letter-spacing: 1px;
+      direction: ltr;
+    }
+
+    .contact-phone-icon {
+      width: 44px; height: 44px;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
+      color: var(--darker);
+      box-shadow: 0 4px 16px rgba(201,162,39,0.35);
+    }
+
+    /* ── Footer ── */
+    .footer {
+      padding: 14px 20px 22px;
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .copyright {
+      font-size: 11px;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 6px;
+    }
+
+    .designer-credit {
+      font-size: 12px;
+      color: rgba(255,255,255,0.45);
+    }
+
+    .designer-link {
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 700;
+      transition: color 0.2s;
+    }
+
+    .designer-link:hover { color: var(--gold-light); text-decoration: underline; }
+
+    /* ── Floating sparkles ── */
+    .sparkle {
+      position: absolute;
+      width: 4px; height: 4px;
+      background: var(--gold);
+      border-radius: 50%;
+      opacity: 0;
+      animation: sparkle-anim 4s ease-in-out infinite;
+    }
+
+    @keyframes sparkle-anim {
+      0%, 100% { opacity: 0; transform: scale(0); }
+      50% { opacity: 0.6; transform: scale(1); }
+    }
+
+    /* mobile tweaks */
+    @media (max-width: 360px) {
+      .offers { flex-direction: column; }
+      .offer-price { font-size: 22px; }
+      .services { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+
+  <!-- Decorative sparkles -->
+  <div class="sparkle" style="top:40px;right:30px;animation-delay:0s"></div>
+  <div class="sparkle" style="top:80px;left:40px;animation-delay:1.5s"></div>
+  <div class="sparkle" style="top:60px;right:80px;animation-delay:2.8s"></div>
+
+  <!-- Top gold bar -->
+  <div class="topbar"></div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="badge-city">📍 الرياض</div>
+    <div class="logo-icon">🏠</div>
+    <div class="company-name">خدمات منزلية متكاملة</div>
+    <div class="tagline">تنظيف احترافي بأسعار تنافسية · خبرة أكثر من 10 سنوات</div>
+  </div>
+
+  <!-- Offer cards -->
+  <div class="offers">
+
+    <div class="offer-card apartments">
+      <div class="offer-tag">عرض</div>
+      <div class="offer-icon">🏢</div>
+      <div class="offer-title">حملة تنظيف الشقق</div>
+      <div class="offer-price">٣٠٠</div>
+      <div class="offer-unit">ريال سعودي فقط</div>
+    </div>
+
+    <div class="offer-card tanks">
+      <div class="offer-tag">عرض</div>
+      <div class="offer-icon">💧</div>
+      <div class="offer-title">حملة غسيل الخزانات</div>
+      <div class="offer-price">٢٥٠</div>
+      <div class="offer-unit">ريال سعودي فقط</div>
+    </div>
+
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- Services -->
+  <div class="section-title">🛠 خدماتنا</div>
+  <div class="services">
+    <div class="service-item"><span class="service-emoji">🏠</span>تنظيف شقق</div>
+    <div class="service-item"><span class="service-emoji">💧</span>غسيل خزانات</div>
+    <div class="service-item"><span class="service-emoji">🪟</span>تنظيف واجهات</div>
+    <div class="service-item"><span class="service-emoji">🛁</span>تعقيم حمامات</div>
+    <div class="service-item"><span class="service-emoji">🧹</span>تنظيف بعد بناء</div>
+    <div class="service-item"><span class="service-emoji">🪑</span>غسيل موكيت</div>
+    <div class="service-item"><span class="service-emoji">🐛</span>مكافحة حشرات</div>
+    <div class="service-item"><span class="service-emoji">🔧</span>خدمات منزلية</div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- Features -->
+  <div class="section-title">✨ مميزاتنا</div>
+  <div class="features">
+    <div class="feature-item"><div class="feature-check">✓</div>فريق عمل محترف ومدرّب</div>
+    <div class="feature-item"><div class="feature-check">✓</div>معدات وأجهزة حديثة</div>
+    <div class="feature-item"><div class="feature-check">✓</div>مواد تنظيف آمنة ومعتمدة</div>
+    <div class="feature-item"><div class="feature-check">✓</div>مواعيد مرنة تناسبك</div>
+    <div class="feature-item"><div class="feature-check">✓</div>ضمان جودة العمل</div>
+    <div class="feature-item"><div class="feature-check">✓</div>أسعار منافسة بدون مفاجآت</div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- Guarantee -->
+  <div class="guarantee">
+    <div class="guarantee-icon">🏅</div>
+    <div class="guarantee-text">
+      ضمان الرضا التام أو نعيد العمل مجاناً
+      <span>نلتزم بالمواعيد ونحترم خصوصية منزلك</span>
+    </div>
+  </div>
+
+  <!-- Contact strip -->
+  <div class="contact-strip">
+    <div>
+      <div class="contact-label">للتواصل والحجز</div>
+      <div class="contact-number" dir="ltr">0531075015</div>
+    </div>
+    <div class="contact-phone-icon">📞</div>
+  </div>
+
+  <!-- CTA Buttons -->
+  <div class="cta-area">
+    <a id="btn-call" class="btn btn-call" href="tel:0531075015">
+      <span class="btn-icon">📞</span>
+      اتصل بنا الآن
+    </a>
+    <a id="btn-whatsapp" class="btn btn-whatsapp" href="https://wa.me/966531075015" target="_blank" rel="noopener">
+      <span class="btn-icon">💬</span>
+      تواصل عبر واتساب
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="designer-credit">
+      تم التصميم بواسطة
+      <a class="designer-link" href="https://wa.me/201029095046" target="_blank" rel="noopener">
+        م. نجوي إبراهيم
+      </a>
+    </div>
+    <div class="copyright">© 2025 جميع الحقوق محفوظة</div>
+  </div>
+
+</div>
+
+<script>
+  // ── Ripple keyframe ──
+  var _s = document.createElement('style');
+  _s.textContent = '@keyframes ripple-kf{to{transform:scale(4);opacity:0}}';
+  document.head.appendChild(_s);
+
+  // ── Fire TikTok Contact event reliably ──
+  function firePixelContact(label) {
+    var ttq = window.ttq;
+    if (!ttq || typeof ttq.track !== 'function') return;
+    ttq.track('Contact', {
+      content_name: label,
+      content_category: 'cleaning_services',
+      content_type: 'product'
+    });
+    ttq.track('ClickButton', { content_name: label });
+  }
+
+  // ── Generic ripple helper ──
+  function addRipple(btn, e) {
+    var r = document.createElement('span');
+    r.style.cssText = 'position:absolute;border-radius:50%;width:60px;height:60px;' +
+      'background:rgba(255,255,255,0.25);transform:scale(0);' +
+      'animation:ripple-kf 0.6s linear;pointer-events:none;' +
+      'top:' + (e.offsetY - 30) + 'px;left:' + (e.offsetX - 30) + 'px';
+    btn.appendChild(r);
+    setTimeout(function() { r.remove(); }, 620);
+  }
+
+  // ── زر الاتصال ──
+  var btnCall = document.getElementById('btn-call');
+  if (btnCall) {
+    btnCall.addEventListener('click', function(e) {
+      e.preventDefault();
+      addRipple(btnCall, e);
+      firePixelContact('اتصال هاتفي - 0531075015');
+      // Navigate after pixel fires
+      setTimeout(function() { window.location.href = 'tel:0531075015'; }, 350);
+    });
+  }
+
+  // ── زر الواتساب ──
+  var btnWA = document.getElementById('btn-whatsapp');
+  if (btnWA) {
+    btnWA.addEventListener('click', function(e) {
+      e.preventDefault();
+      addRipple(btnWA, e);
+      firePixelContact('واتساب - 0531075015');
+      // Open in new tab after pixel fires
+      setTimeout(function() {
+        window.open('https://wa.me/966531075015', '_blank');
+      }, 350);
+    });
+  }
+
+  // ── Contact strip (رقم الهاتف المعروض) ──
+  var strip = document.querySelector('.contact-strip');
+  if (strip) {
+    strip.addEventListener('click', function() {
+      firePixelContact('اتصال هاتفي - 0531075015');
+      setTimeout(function() { window.location.href = 'tel:0531075015'; }, 350);
+    });
+  }
+
+  // ── Staggered entrance animation ──
+  var items = document.querySelectorAll('.service-item, .feature-item, .offer-card');
+  items.forEach(function(el, i) {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(16px)';
+    el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+    setTimeout(function() {
+      el.style.opacity = '1';
+      el.style.transform = 'translateY(0)';
+    }, 120 + i * 60);
+  });
+</script>
+
+</body>
+</html>
